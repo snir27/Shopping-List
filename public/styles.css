@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-size: large;
+
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #eee;
+    padding: 16px;
+}
+
+header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 30px 32px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+header h1 {
+    color: #fff;
+    font-family: "Mclaren", cursive;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer p{
+    color: #ccc;
+}
+
+.product{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#fff;
+    padding-right: 20px;
+    margin: 1em;
+    border-radius: 20px;
+       
+}
+
+
+.name{
+    font-size: 32px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #202020;
+  }
+    
+    
+
+.price{
+    display:table;
+    padding-top: 30px;
+    font-size: 20px;
+    
+}
+
+.img{
+    width: 9rem;
+    height: 9rem;
+    text-align: center;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: black;
+}
+
+
+.row {
+    display: table;
+    clear: both;
+    padding: 20px;
+}
+
